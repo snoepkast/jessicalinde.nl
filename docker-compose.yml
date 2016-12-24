@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  app:
+    image: "publysher/hugo"
+    volumes:
+      - .:/usr/share/blog
+    ports:
+      - "1313:1313"
