@@ -48,25 +48,23 @@ theme = "hugo-freelancer-theme"
         # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
         # at the root of this Hugo site.
         # For more informtion take a look at the README.
-        title = "Portfolio"
+        title = "Ervaring"
 
         [params.portfolio.modal]
-            client = "Client"
-            date = "Date"
-            category = "Category"
-            buttontext = "Close"
+            date = "Datum"
+            buttontext = "Sluiten"
 
 
     [params.about]
         title = "Over mij"
         # The about text is splitted into a left and right column
-        left = "Afgestudeerd aan de marketing opleiding van Rijksuniversiteit Groningen in 2016. Ik ben een enthousiast en leergierig persoon."
+        left = "Afgestudeerd aan de marketing opleiding van de Rijksuniversiteit Groningen in 2016. Ik ben een enthousiast en leergierig persoon."
         right = "Al sinds ik bij de Albert Heijn heb gewerkt heb ik een passie voor marketing."
 
-        [params.about.button]
-            text = "Mijn profiel"
-            link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
-            icon = "linkedin-square"
+        # [params.about.button]
+        #     text = "Mijn profiel"
+        #     link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
+        #     icon = "linkedin-square"
 
 
     [params.contact]
@@ -94,27 +92,27 @@ theme = "hugo-freelancer-theme"
 
 
     [params.footer]
-        copyright = "Published under the Apache License 2.0. Powered by [Hugo](//gohugo.io)."
+        copyright = ""
 
-        [params.footer.location]
-            title = "Location"
-            # Postal address (add as many lines as necessary)
-            address = ["3481 Melrose Place", "Beverly Hills, CA 90210"]
+        # [params.footer.location]
+        #     title = "Location"
+        #     # Postal address (add as many lines as necessary)
+        #     address = ["3481 Melrose Place", "Beverly Hills, CA 90210"]
 
         [params.footer.social]
-            title = "Around the web"
+            title = "Vind mij op 't web"
             # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
             # for more icons. The icons are represented by their corresponding
             # CSS class.
             [[params.footer.social.networks]]
-                icon = "fa-github"
-                link = "//github.com/spf13/hugo"
+                icon = "fa-linkedin"
+                link = "https://nl.linkedin.com/in/jessica-linde-75111045"
 
             [[params.footer.social.networks]]
-                icon = "fa-stack-overflow"
-                link=  "//stackoverflow.com/questions/tagged/hugo"
+                icon = "fa-facebook"
+                link=  "https://www.facebook.com/jessica.linde.7"
 
 
-        [params.footer.credits]
-            title = "About Freelancer"
-            text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
+        # [params.footer.credits]
+        #     title = "About Freelancer"
+        #     text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
