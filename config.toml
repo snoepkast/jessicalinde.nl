@@ -3,6 +3,7 @@ baseurl = "http://jessicalinde.nl/"
 languageCode = "en-us"
 title = "Jessica Linde"
 theme = "hugo-freelancer-theme"
+publishdir = "./dist"
 
 
 [params]
