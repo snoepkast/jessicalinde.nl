@@ -27,7 +27,7 @@ publishdir = "./dist"
     # - send a dummy email youself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    email = "your@email.com"
+    email = "hallo@jessicalinde.nl"
 
     # Custom assets
 	custom_css = []
