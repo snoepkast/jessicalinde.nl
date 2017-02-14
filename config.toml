@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://jessicalinde.nl/"
+baseurl = "//jessicalinde.nl/"
 languageCode = "en-us"
 title = "Jessica Linde"
 theme = "hugo-freelancer-theme"
