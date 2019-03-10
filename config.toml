@@ -58,9 +58,9 @@ publishdir = "./dist"
 
     [params.about]
         title = "Over mij"
-        # The about text is splitted into a left and right column
+        # The about text is split into a left and right column
         left = "Afgestudeerd aan de marketing opleiding van de Rijksuniversiteit Groningen in 2016. Ik ben een enthousiast en leergierig persoon."
-        right = "Al sinds ik bij de Albert Heijn heb gewerkt heb ik een passie voor marketing."
+        right = "Ik werk graag in teamverband en collega’s kunnen eropaan dat ik uitvoer wat ik zeg. Ik heb een hoog verantwoordelijkheidsgevoel, maar mijn enthousiasme is ook altijd aanwezig en is van invloed op anderen."
 
         # [params.about.button]
         #     text = "Mijn profiel"
@@ -109,9 +109,9 @@ publishdir = "./dist"
                 icon = "fa-linkedin"
                 link = "https://nl.linkedin.com/in/jessica-linde-75111045"
 
-            [[params.footer.social.networks]]
-                icon = "fa-facebook"
-                link=  "https://www.facebook.com/jessica.linde.7"
+            # [[params.footer.social.networks]]
+            #     icon = "fa-facebook"
+            #     link=  "https://www.facebook.com/jessica.linde.7"
 
 
         # [params.footer.credits]
